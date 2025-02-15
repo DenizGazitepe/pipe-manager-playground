@@ -6,6 +6,19 @@
 		"useIgnoreFile": true,
 		"defaultBranch": "main"
 	},
+	"linter": {
+		"rules": {
+			"nursery": {
+				"useSortedClasses": {
+					"fix": "safe",
+					"level": "info",
+					"options": {
+						"attributes": ["class"]
+					}
+				}
+			}
+		}
+	},
 	"files": {
 		"ignoreUnknown": false,
 		"ignore": []
