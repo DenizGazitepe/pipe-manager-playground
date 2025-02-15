@@ -1,0 +1,14 @@
+{
+	"recommendations": [
+		"bradlc.vscode-tailwindcss",
+		"stivo.tailwind-fold",
+		"pranaygp.vscode-css-peek",
+		"biomejs.biome",
+		"oven.bun-vscode",
+		"aaron-bond.better-comments",
+		"vivaxy.vscode-conventional-commits",
+		"usernamehw.errorlens",
+		"tamasfe.even-better-toml",
+		"yoavbls.pretty-ts-errors"
+	]
+}
