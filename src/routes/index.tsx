@@ -1,4 +1,5 @@
 import Counter from "@/components/Counter";
+import { Link } from "@kobalte/core/link";
 import { Title } from "@solidjs/meta";
 
 export default function Home() {
@@ -9,14 +10,14 @@ export default function Home() {
 			<Counter />
 			<p>
 				Visit{" "}
-				<a
+				<Link
 					class="link"
 					href="https://start.solidjs.com"
 					target="_blank"
 					rel="noreferrer"
 				>
 					start.solidjs.com
-				</a>{" "}
+				</Link>{" "}
 				to learn how to build SolidStart apps.
 			</p>
 		</main>
