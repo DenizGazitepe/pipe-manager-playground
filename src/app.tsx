@@ -21,7 +21,7 @@ export default function App() {
 											<DropdownMenu.Item
 												class="btn btn-link"
 												as={A}
-												href="/index"
+												href="/"
 											>
 												Home
 											</DropdownMenu.Item>
