@@ -5,7 +5,6 @@ import { Suspense } from "solid-js";
 import "./app.css";
 import { Button } from "@kobalte/core/button";
 import { DropdownMenu } from "@kobalte/core/dropdown-menu";
-import { DropdownMenuRoot } from "@kobalte/core/src/dropdown-menu/dropdown-menu-root.jsx";
 
 export default function App() {
 	return (
@@ -20,7 +19,7 @@ export default function App() {
 									<Button class="btn">Menu</Button>
 								</DropdownMenu.Trigger>
 								<DropdownMenu.Portal>
-									<DropdownMenu.Content class="menu dropdown-content z-1 w-52 rounded-box bg-base-100 p-2 shadow-sm">
+									<DropdownMenu.Content class="z-1 w-52 rounded-box bg-base-100 p-2 shadow-sm">
 										<DropdownMenu.Item>
 											<Button class="btn btn-link" as={A} href="/">
 												Index
