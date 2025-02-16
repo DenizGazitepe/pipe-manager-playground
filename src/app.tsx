@@ -15,9 +15,7 @@ export default function App() {
 					<header class="navbar bg-neutral shadow-sm">
 						<div class="navbar-start">
 							<DropdownMenu>
-								<DropdownMenu.Trigger>
-									<Button class="btn">Menu</Button>
-								</DropdownMenu.Trigger>
+								<DropdownMenu.Trigger class="btn">Menu</DropdownMenu.Trigger>
 								<DropdownMenu.Portal>
 									<DropdownMenu.Content class="z-1 w-52 rounded-box bg-base-100 p-2 shadow-sm">
 										<DropdownMenu.Item>
